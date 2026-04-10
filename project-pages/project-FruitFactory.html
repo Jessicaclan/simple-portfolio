@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Pustfolio</title>
+    <meta name="description" content="A portfolio for and about Oliver Pust">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Pustfolio</span>
+        <a class="button" href="mailto:pust@live.dk">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">The Fruit Factory</div>
+        <div class="body-text">"The Fruit Factory" is an interactive web application that teaches general audiences how AI image recognition models are trained, using scrollytelling, animations, and microgames built around a fruit factory metaphor. </div>
+        <image class="project-header-image" src="../assets/images/FruitFactory/Factory - Landing page.png">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">The Fruit Factory is an interactive web application that teaches general audiences how AI image recognition models are trained, without requiring any prior technical knowledge. The project was born out of a recognition that AI is increasingly present in everyday life, yet the underlying processes remain opaque to most people. By making these processes transparent and engaging, the goal was to give users the tools to better understand the technology shaping their world.</div>
+          <div class="body-text">The prototype uses scrollytelling as its primary format, breaking down the six stages of training an image recognition model into digestible, scroll-triggered sections. A fruit factory serves as the central metaphor throughout, drawing on the familiarity of everyday objects to ground abstract concepts in something tangible and relatable. As users scroll through the factory, they encounter four microgames covering labeling, feature extraction, model training, and deployment, each designed to let users actively participate in the process rather than passively read about it.</div>
+          <div class="body-text">The application was built in ReactJS and went through multiple rounds of user testing, including hallway tests, usability evaluations, and knowledge retention assessments. Findings showed that participants who engaged with the interactive elements were significantly better at recalling the steps of image recognition, and that the fruit metaphor helped make an intimidating subject feel approachable. The project contributes to the growing field of AI transparency and public education, showing that good design can make even the most complex topics genuinely accessible.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/FruitFactory/Factory-Labelling.png" class="gallery-image">
+              <span class="image-caption">Labeling microgame</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/FruitFactory/Factory-Model_training.png" class="gallery-image">
+              <span class="image-caption">Model training micro game</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" href="mailto:pust@live.dk">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="https://github.com/Jessicaclan" target="_blank">
+        <image src="../assets/icons/github-outline.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Pustfolio</title>
+    <meta name="description" content="A portfolio for and about Oliver Pust">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Pustfolio</span>
+        <a class="button" href="mailto:pust@live.dk">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Chat Recap</div>
+        <div class="body-text">An AI-powered meeting recap tool built to help absent students catch up on collaborative sessions. The system transcribes conversations, uses the GPT API to categorize dialogue into topics, and presents everything through a chat-style web interface with an auto-generated summary.</div>
+        <image class="project-header-image" src="../assets/images/ChatRecap/ixd6_illustration.png">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">Designed to bridge the gap between absent and attending university students, ChatRecap is an intelligent recap and topic generator for group meetings. A physical recording device captures conversations, which are then processed by GPT-3.5-Turbo to automatically categorize dialogue into topics and generate a summary. The result is displayed in a familiar chat-style web interface with a color-coded topic timeline.</div>
+          <div class="body-text">The project followed an adapted double diamond design process, moving from initial research on student absenteeism through two rounds of prototyping and user evaluation. Key insights, like preferring a timeline over a flat recap, and valuing the unbiased verbatim record over a human-written summary, directly shaped the final design.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/ChatRecap/WebProto3.png" class="gallery-image">
+              <span class="image-caption">Chat Recaps interface with a theme sperated timeline and a recap of the recorded conversation</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/ChatRecap/MSG_Gen-code.png" class="gallery-image">
+              <span class="image-caption">Example of the javascript code used to populate the prototype</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" href="mailto:pust@live.dk">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="https://github.com/Jessicaclan" target="_blank">
+        <image src="../assets/icons/github-outline.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
