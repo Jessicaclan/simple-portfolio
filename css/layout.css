@@ -210,11 +210,6 @@ body {
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
-
-      iframe {
-      width: 100%;
-      height: 150px;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
